@@ -366,7 +366,7 @@ func (b *UIBranding) check() {
 	if b.LogoPath != "" {
 		b.LogoPath = util.CleanPath(b.LogoPath)
 	} else {
-		b.LogoPath = "/img/logo.png"
+		b.LogoPath = "/img/spectrum-logo.svg"
 	}
 	if b.LoginImagePath != "" {
 		b.LoginImagePath = util.CleanPath(b.LoginImagePath)
@@ -497,16 +497,16 @@ func (b *Binding) checkBranding() {
 	b.Branding.WebAdmin.check()
 	b.Branding.WebClient.check()
 	if b.Branding.WebAdmin.Name == "" {
-		b.Branding.WebAdmin.Name = "SFTPGo WebAdmin"
+		b.Branding.WebAdmin.Name = "Личный кабинет"
 	}
 	if b.Branding.WebAdmin.ShortName == "" {
-		b.Branding.WebAdmin.ShortName = "WebAdmin"
+		b.Branding.WebAdmin.ShortName = "SpectrumData"
 	}
 	if b.Branding.WebClient.Name == "" {
-		b.Branding.WebClient.Name = "SFTPGo WebClient"
+		b.Branding.WebClient.Name = "Личный кабинет"
 	}
 	if b.Branding.WebClient.ShortName == "" {
-		b.Branding.WebClient.ShortName = "WebClient"
+		b.Branding.WebClient.ShortName = "SpectrumData"
 	}
 }
 

@@ -62,7 +62,7 @@ const (
 	templateClientViewPDF           = "viewpdf.html"
 	templateShareFiles              = "sharefiles.html"
 	templateUploadToShare           = "shareupload.html"
-	pageClientFilesTitle            = "My Files"
+	pageClientFilesTitle            = "Файлы"
 	pageClientSharesTitle           = "Shares"
 	pageClientProfileTitle          = "My Profile"
 	pageClientChangePwdTitle        = "Change password"
